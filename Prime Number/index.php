@@ -9,16 +9,17 @@ function primeNumber($num){
             }
         }
 
-        if($sumvalue = false){
-            echo "$num is not a prime number";
+        if($sumvalue = true){
+            echo "$num is a prime number";
         }
         else{
-            echo "$num is a prime number";
+            echo "$num is not a prime number";
+            
         }
     }else{
         echo "please enter a value as greater then 0";
     }
 }   
-primeNumber(0);
+primeNumber(6);
 
 ?>

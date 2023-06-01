@@ -4,8 +4,8 @@ $userInput = ReadLine("enter your input");
 
 $firstInput = 0;
 $secInput = 1;
-echo $firstInput."\n";
-echo $secInput."\n";
+// echo $firstInput."\n";
+// echo $secInput."\n";
 $finaleValue = $firstInput + $secInput ;
 
 for($i=0; $i<$userInput;$i++){
